@@ -1,0 +1,83 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15 Nis 2021, 16:44:10
+    Author     : Giray Aktaş
+*/
+
+#kodlar{
+    width: 1030px;
+    margin: auto;
+    background-color: lightyellow;
+}
+header{
+    height:60px;
+    background-color: steelblue;
+    padding-top: 4px;
+}
+header h1{
+    text-align: center;
+    color: white;
+}
+nav{
+    background: black;
+    
+}
+nav a{
+    display: inline-block;
+    padding: 5px;
+    margin: 0px;
+}
+nav a:link, nav a visited{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+nav a:hover{
+    text-decoration: none;
+    background-color: steelblue;
+    color: yellow;
+}
+#icerik{
+    width: 80%;
+    float:left;
+}
+aside{
+    width: 20%;
+    float:left;
+    background-color: yellow;
+}
+footer{
+    clear: both;
+    background-color: black;
+    text-align: center;
+    color:white;
+}
+.sayfa{
+    overflow: auto;
+    background-color: khaki;
+}
+.resimgal{
+    float:left;
+    padding:20px;
+    border:thin solid gray;
+    margin: 15px;
+    width:250px;
+    height:200px;
+    }
+.resimgal img{
+        display:block;
+        margin:auto;
+    }
+    .aciklama{
+        margin-top: 10px;
+        text-align: center;
+    }
+    .resimgal:hover{
+        border:thin solid red;
+            background-color:khaki
+        
+    }
